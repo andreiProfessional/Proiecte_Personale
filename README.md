@@ -1,2 +1,2 @@
 # Proiecte_Personale
-Aici se afla toate proiectele personale la care am lucrat in ultima perioada. Codurile sursa sunt atasate de asemenea.
+Aici se află toate proiectele personale la care am lucrat în ultima perioadă. De asemenea, toate codurile sursă sunt atașate.
