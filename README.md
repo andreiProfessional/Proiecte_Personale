@@ -10,7 +10,7 @@ Pe parcursul acestui proiect, am învățat despre funcționarea codurilor QR ș
 Am folosit funcții din biblioteca cv2 pentru a transforma o imagine cu un QR code într-o matrice numpy cu valori de 0 pentru un modul negru și 255 pentru un modul alb. Practic, funcția qr_to_matrix preia imaginea, o centrează, o împarte în 25x25 de pătrate egale și verifică dacă în fiecare pătrat este mai mult alb sau negru. Astfel, se construiește exact matricea cu care pot lucra, formată din 255 și 0.
 
 Inițial, încerc să aflu tipul măștii folosindu-mă de cei 3 biți din formatul bits și de o hardcodare specifică fiecărei măști în parte.
-După ce am aflat tipul măștii, efectuez un XOR între matricea de date și masca respectivă, obținând astfel matricea inițială (a XOR masca XOR masca = a).
+După ce am aflat tipul măștii, efectuez un XOR între matricea de date și masca respectivă, obținând astfel matricea inițială (A XOR Mască XOR Mască = A, pentru orice matrice A).
 Citesc din cod și decodific începând de la primul byte de conținut și mă opresc când ajung la terminatorul 0000.
 Afișez output-ul.
 Notă: Menționez că înainte să implementez funcția qr_to_matrix, am folosit funcții din biblioteca qrcode pentru a crea matricea respectivă și a face debug pe cod. Am lăsat și acel cod în comentarii.
